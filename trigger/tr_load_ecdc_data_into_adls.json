@@ -1,0 +1,25 @@
+{
+	"name": "tr_load_ecdc_data_into_adls",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_ecdc_data",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-02-09T14:29:00",
+				"endTime": "2026-02-12T07:51:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
