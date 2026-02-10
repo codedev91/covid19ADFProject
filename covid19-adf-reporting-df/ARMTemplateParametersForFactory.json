@@ -11,8 +11,20 @@
 		"ls_adls_covid19adfreporting_accountKey": {
 			"value": ""
 		},
+		"ls_azure_sql_password": {
+			"value": ""
+		},
 		"ls_adls_covid19adfreporting_properties_typeProperties_url": {
 			"value": "https://covid19adfreportingadls.dfs.core.windows.net/"
+		},
+		"ls_azure_sql_properties_typeProperties_server": {
+			"value": "covid19-adf-reporting-server.database.windows.net"
+		},
+		"ls_azure_sql_properties_typeProperties_database": {
+			"value": "covid19-adf-reporting-db"
+		},
+		"ls_azure_sql_properties_typeProperties_userName": {
+			"value": "adm"
 		},
 		"ls_http_opendata_ecdc_europe_eu_properties_typeProperties_url": {
 			"value": "@{linkedService().sourceBaseURL}"
