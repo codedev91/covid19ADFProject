@@ -1,5 +1,5 @@
 {
-	"name": "pl_load_cleansed_data_into_processed",
+	"name": "pl_processed_death_cases_data",
 	"properties": {
 		"activities": [
 			{
