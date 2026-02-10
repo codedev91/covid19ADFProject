@@ -1,5 +1,5 @@
 {
-	"name": "df_ds_raw_cases_and_deaths",
+	"name": "ds_raw_cases_and_deaths",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_adls_covid19adfreporting",
@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "cases_deaths.csv",
-				"folderPath": "ecdc",
+				"folderPath": "ecdc/cases_deaths",
 				"fileSystem": "raw"
 			},
 			"columnDelimiter": ",",
